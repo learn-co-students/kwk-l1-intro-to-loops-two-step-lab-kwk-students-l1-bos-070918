@@ -9,8 +9,6 @@ def first_steps
     sleep(0.5)
     puts "Stop"
     sleep(1)
-  # Writputs "Right foot back" a loop that outputs "Right foot back", "Left foot back",
-  # "Right foot back", and "Stop", with sleep after each
   end
 end 
 
@@ -18,13 +16,12 @@ def a_few_more_steps
   loop do 
     puts "Right foot back"
     sleep(0.5)
-    # sleep command pauses how quickly the loop goes 
     puts "Left foot back"
     sleep(0.5)
     puts "Right foot back"
     sleep(0.5)
-    # puts "Stop"
-    # sleep(1)
+    puts "Stop"
+    sleep(1)
     puts "Right foot steps right and back"
     sleep(0.5)
     puts "Left foot crosses over right"
@@ -38,7 +35,7 @@ def a_few_more_steps
 end
 end 
 
-def how_many_steps
+def how_many_steps?
   steps = 0 
   loop do 
     steps += 1 
